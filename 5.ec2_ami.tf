@@ -1,6 +1,6 @@
 # for public server
 data "aws_ami" "windows" {
-  most_recent = true
+  most_recent = true       # this ensures that the most up-to-date version of the AMI is retreived
   owners      = ["amazon"] # Ensures official AMIs
 
   filter {

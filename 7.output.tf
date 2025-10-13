@@ -13,3 +13,10 @@ output "windows_password_encrypted" {
   }
   sensitive = true
 }
+
+output "windows_password" {
+  description = "Password for rdp"
+  value = {
+    for key, instance in aws_instance.windows_bastion : key => nonsensitive(rsadecrypt(instance.password_data, tls_private_key.rsa.private_key_pem))
+  }
+}

@@ -11,3 +11,4 @@ resource "local_file" "rdp_file" {
   # The name of the file that will be created
   filename = "${path.module}/windows-bastion.rdp"
 }
+

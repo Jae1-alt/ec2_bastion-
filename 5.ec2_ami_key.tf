@@ -9,7 +9,6 @@ data "aws_ami" "windows" {
   }
 }
 
-
 resource "aws_instance" "windows_bastion" {
 
   for_each = local.vpc_subnet_combination

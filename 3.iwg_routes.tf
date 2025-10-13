@@ -38,6 +38,11 @@ resource "aws_route_table" "private_rt" {
 
   vpc_id = aws_vpc.main[each.key].id
 
+  route {
+    cidr_block     = "0.0.0.0/0"
+    nat_gateway_id = aws_nat_gateway.example[each.key].id
+  }
+
   tags = {
     Name = "${each.key}-private-rt"
   }

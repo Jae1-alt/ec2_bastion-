@@ -66,22 +66,26 @@ variable "private_subnets" {
     subnet_name      = string
     subnet_cidr_mask = number
     script           = string
+    az              = number
   }))
   default = {
     "1st_private_subnet" = {
       subnet_name      = "subnet a"
       subnet_cidr_mask = 11
       script           = "user_a.sh"
+      az = 0 # index number to chose AZ from list of choices
     }
     "2nd_private_subnet" = {
       subnet_name      = "subnet a"
       subnet_cidr_mask = 12
       script           = "user_b.sh"
+      az = 1 # index number to chose AZ from list of choices
     }
     "3rd_private_subnet" = {
       subnet_name      = "subnet a"
       subnet_cidr_mask = 13
       script           = "user_c.sh"
+      az = 2 # index number to chose AZ from list of choices
     }
   }
 }
@@ -114,6 +118,7 @@ locals {
       vpc_region  = var.vpc_info[pair[0]].vpc_region
       vpc_data    = var.vpc_info[pair[0]]
       script      = var.private_subnets[pair[1]].script
+      az      = var.private_subnets[pair[1]].az
       subnet_data = var.private_subnets[pair[1]]
       subnet_cidr = cidrsubnet(var.vpc_info[pair[0]].vpc_cidr, 8, var.private_subnets[pair[1]].subnet_cidr_mask)
     }

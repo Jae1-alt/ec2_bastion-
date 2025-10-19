@@ -50,7 +50,7 @@ resource "aws_subnet" "private_subnet" {
 
   vpc_id            = aws_vpc.main[each.value.vpc_key].id
   cidr_block        = each.value.subnet_cidr
-  availability_zone = data.aws_availability_zones.available1[each.key].names[0]
+  availability_zone = data.aws_availability_zones.available1[each.key].names[each.value.az]
 
   tags = {
     Name = "test-private"

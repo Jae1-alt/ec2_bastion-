@@ -15,7 +15,8 @@ variable "user_data_script" {
   description = "This 'key:value' pair houses the name of the scripts to be used in the 'user-data' section for each instance, scripts pair with subnets."
   type        = map(string)
   default = {
-    "script" = "user_ba.sh"
+    "script" = "user_a.sh"
+    "script" = "user_a.sh"
   }
 }
 
@@ -70,7 +71,17 @@ variable "private_subnets" {
     "1st_private_subnet" = {
       subnet_name      = "subnet a"
       subnet_cidr_mask = 11
-      script           = "user_ba.sh"
+      script           = "user_a.sh"
+    }
+    "2nd_private_subnet" = {
+      subnet_name      = "subnet a"
+      subnet_cidr_mask = 12
+      script           = "user_b.sh"
+    }
+    "3rd_private_subnet" = {
+      subnet_name      = "subnet a"
+      subnet_cidr_mask = 13
+      script           = "user_c.sh"
     }
   }
 }

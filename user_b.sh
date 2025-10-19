@@ -32,49 +32,49 @@ cat <<EOF > /var/www/html/index.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Details for EC2 instance</title>
-    <link rel="stylesheet" href="style.css?v=1.12.A">
+    <title>2nd EC2 instance</title>
+    <link rel="stylesheet" href="style.css?v=2.13.BC">
 </head>
 <body>
     <div class="header-shape">
-        <h1>AWS Instance 1 Details</h1>
-        <h2>All done in Terraform with love and Diddy Oil.</h2>
-        <p>I, Jaune Alcide, thank Suge WAF and My Senpais, For Teaching Me About EC2's in Aws. One Step Closer To Escaping Keisha!</p>
+        <h1>AWS Instance 2 Details</h1>
+        <h2>All done in Terraform with Blood, Sweat and Tears.</h2>
+        <p>I, Jaune Alcide, thank Suge WAF and My Senpais, For Teaching Me About the Cloud. One Step Closer To Escaping Keisha!</p>
         <p><strong>With This Class, I Will Net >\$500,000 Per Year!</strong></p>
     </div>
 
     <div class="hexagon-gallery">
         <div class="hex-row">
-            <div class="hexagon-item" data-src="https://images.ctfassets.net/jvp71l3ed0ev/kSuB5bMCnShXjjRLfW4qt/31ff4ac3bbfc332c7cd256122a13863b/ATMK_10_0042.JPG">
+            <div class="hexagon-item" data-src="https://images.squarespace-cdn.com/content/v1/59b6e91c9f7456a2afa651ea/1705512854437-C44OYKAYH75IKSMZST2Q/us3.jpg?">
                 <div class="hexagon">
-                    <img src="https://images.ctfassets.net/jvp71l3ed0ev/kSuB5bMCnShXjjRLfW4qt/31ff4ac3bbfc332c7cd256122a13863b/ATMK_10_0042.JPG" alt="Lush green forest">
-                    <div class="hex-text"><span>View from Future Home</span></div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/59b6e91c9f7456a2afa651ea/1705512854437-C44OYKAYH75IKSMZST2Q/us3.jpg?" alt="Lush green forest">
+                    <div class="hex-text"><span>Future Home with Lake</span></div>
                 </div>
             </div>
-            <div class="hexagon-item" data-src="https://images.ctfassets.net/jvp71l3ed0ev/1zIqtlcv5FBCYaJzACZpLV/0a9ffc0479ce289edb6151f8694754de/04.JPG">
+            <div class="hexagon-item" data-src="https://images.ctfassets.net/jvp71l3ed0ev/1enrLXaefsCtsz58tGGOz6/d36720cd525c7582c0b3e90b847eb026/11.jpg">
                 <div class="hexagon">
-                    <img src="https://images.ctfassets.net/jvp71l3ed0ev/1zIqtlcv5FBCYaJzACZpLV/0a9ffc0479ce289edb6151f8694754de/04.JPG" alt="River in a mountain valley">
-                    <div class="hex-text"><span>Future Home Bath</span></div>
+                    <img src="https://images.ctfassets.net/jvp71l3ed0ev/1enrLXaefsCtsz58tGGOz6/d36720cd525c7582c0b3e90b847eb026/11.jpg" alt="River in a mountain valley">
+                    <div class="hex-text"><span>Future Home with Onsen</span></div>
                 </div>
             </div>
         </div>
         <div class="hex-row">
-            <div class="hexagon-item" data-src="https://i.pinimg.com/originals/c6/24/54/c62454d7ec5cdb0f8484c207dd7a69b0.jpg">
+            <div class="hexagon-item" data-src="https://i.redd.it/s9qqpjka4lk51.jpg">
                 <div class="hexagon">
-                    <img src="https://i.pinimg.com/originals/c6/24/54/c62454d7ec5cdb0f8484c207dd7a69b0.jpg" alt="Misty forest path">
-                    <div class="hex-text"><span>....</span></div>
+                    <img src="https://i.redd.it/s9qqpjka4lk51.jpg" alt="Misty forest path">
+                    <div class="hex-text"><span>Simple Smile</span></div>
                 </div>
             </div>
-            <div class="hexagon-item" data-src="https://image.made-in-china.com/365f3j00OlrtdIWMfNbp/New-Stylish-Mature-Women-Blue-Ruffled-Sexy-Brazilian-Triangle-Strappy-Bikini.webp">
+            <div class="hexagon-item" data-src="https://pbs.twimg.com/media/FMUNqatXIAcLylN.jpg:large">
                 <div class="hexagon">
-                    <img src="https://image.made-in-china.com/365f3j00OlrtdIWMfNbp/New-Stylish-Mature-Women-Blue-Ruffled-Sexy-Brazilian-Triangle-Strappy-Bikini.webp" alt="Sun setting over a grassy field">
-                    <div class="hex-text"><span>Bronze Bomb</span></div>
+                    <img src="https://pbs.twimg.com/media/FMUNqatXIAcLylN.jpg:large" alt="Sun setting over a grassy field">
+                    <div class="hex-text"><span>The Blacker the Berry</span></div>
                 </div>
             </div>
-            <div class="hexagon-item" data-src="https://tlceventsandweddings.com/wp-content/uploads/2021/08/Sexy-Thai-Bride.jpg">
+            <div class="hexagon-item" data-src="https://www.stlbrideandgroom.com/wp-content/uploads/2023/10/NaomiDate17-768x960.jpg">
                 <div class="hexagon">
-                    <img src="https://tlceventsandweddings.com/wp-content/uploads/2021/08/Sexy-Thai-Bride.jpg" alt="Sun rays through a large tree">
-                    <div class="hex-text"><span>That Look</span></div>
+                    <img src="https://www.stlbrideandgroom.com/wp-content/uploads/2023/10/NaomiDate17-768x960.jpg" alt="Sun rays through a large tree">
+                    <div class="hex-text"><span>That Gaze</span></div>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@ cat <<EOF > /var/www/html/index.html
         </div>
 
         <div class="button-container">
-            <a href="https://scontent.fmbj2-2.fna.fbcdn.net/v/t39.30808-6/480791260_1616688689015102_2464800278410713211_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=8xiryEOrWIYQ7kNvwGh4e2q&_nc_oc=Adl2SRMkxkNhlUxTRQRzgTZlh1nlijFJfzyr-Frh1R1DA3a9AUrhBFO7TreRLQgieNY&_nc_zt=23&_nc_ht=scontent.fmbj2-2.fna&_nc_gid=t2ScWN2AEB0GzTP9SW5T7A&oh=00_Afc_FaWCn1DrBHFaNZf2ct4M9S54CjjEez3HAjb4wVVJ4A&oe=68E503EC" target="_blank" class="repo-button">
+            <a href="https://s.yimg.com/ny/api/res/1.2/h4wYAD4g999h1LHvNkm0DA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTgwMA--/https://media.zenfs.com/en/aol_bored_panda_979/ad897869a3d3d3b86da214f079e5b89b" target="_blank" class="repo-button">
                 Don't want to read? Great, have this!
             </a>
             <a href="https://github.com/Jae1-alt/ec2_bastion-/tree/main" target="_blank" class="repo-button">
@@ -164,8 +164,8 @@ body {
     background-color: rgba(40, 40, 40, 0.8);
     color: white;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-    /* CHANGED: Border color is now green */
-    border: 3px solid #28a745;
+    /* CONFIRMED: Border color is red */
+    border: 3px solid #e74c3c;
     border-radius: 60px 60px 15px 15px;
     box-sizing: border-box;
 }
@@ -193,7 +193,8 @@ h1, h2 {
 .hexagon-item {
   display: block;
   cursor: pointer;
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.4));
+  /* CHANGED: Swapped the white glow for the red border color */
+  filter: drop-shadow(0 0 10px rgba(231, 76, 60, 0.5));
   transition: filter 0.3s ease;
 }
 .hexagon {
@@ -231,7 +232,8 @@ h1, h2 {
 .hexagon-item:hover .hexagon img { filter: brightness(0.6); }
 .hexagon-item:hover .hexagon { transform: scale(1.1); }
 .hexagon-item:hover {
-    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.6));
+    /* CHANGED: Made the hover glow a stronger version of the red border color */
+    filter: drop-shadow(0 0 15px rgba(231, 76, 60, 0.8));
 }
 
 /* --- Bottom Details Box --- */
@@ -242,8 +244,8 @@ h1, h2 {
     padding: 25px;
     background-color: rgba(40, 40, 40, 0.8);
     color: white;
-    /* CHANGED: Border color is now green */
-    border: 3px solid #28a745;
+    /* CONFIRMED: Border color is red */
+    border: 3px solid #e74c3c;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
@@ -266,24 +268,24 @@ h1, h2 {
     gap: 20px;
 }
 
-/* CHANGED: Button theme is now white and green */
+/* CONFIRMED: Button theme is white and red */
 .repo-button {
   display: inline-block;
   padding: 15px 30px;
   font-size: 1.1em;
-  background-image: linear-gradient(45deg, #ffffff 0%, #d4edda 100%);
-  color: #155724; /* Dark green text for contrast */
+  background-image: linear-gradient(45deg, #ffffff 0%, #ffcccb 100%);
+  color: #c0392b; /* Dark red text for contrast */
   text-decoration: none;
   font-weight: bold;
   border-radius: 50px;
-  border: 2px solid #155724; /* Solid dark green border */
+  border: 2px solid #c0392b; /* Solid redish border */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-shadow: none;
   transition: all 0.3s ease;
 }
 .repo-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(40, 167, 69, 0.4); /* Green shadow on hover */
+  box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4); /* Red shadow on hover */
 }
 
 /* CORRECTED: CSS for the image modal */
